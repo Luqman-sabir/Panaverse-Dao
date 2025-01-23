@@ -3,7 +3,7 @@ import {useState} from 'react'
 import { programdata } from '../utils/programsdata'
 import Image from 'next/image'
 
-function Spicializedtrack() {
+function Spicialized() {
 const [selecteditem, Setselecteditem] = useState("wmd")
 const selecteditemdata = programdata.find((item)=>item.slug===selecteditem)
 
@@ -59,4 +59,4 @@ const selecteditemdata = programdata.find((item)=>item.slug===selecteditem)
   )
 }
 
-export default Spicializedtrack;
+export default Spicialized;

@@ -3,7 +3,7 @@ import React from 'react'
 import Outcome from '/public/images/outcome-poster.webp'
 const Outcomepoints = ['Product Ownership','Freelancing','Global Marketing by Panaverse DAO','Boosting Economy.']
 
-function Programsoutcome() {
+function Programs() {
   return (
     <div className='mt-16 md:mt-28 flex items-center flex-col-reverse md:flex-row'>
         {/* left side div */}
@@ -31,4 +31,4 @@ function Programsoutcome() {
   )
 }
 
-export default Programsoutcome
+export default Programs
